@@ -1,0 +1,131 @@
+body {
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+
+.backdrop {
+    width: 100%;
+    min-width: ;
+    border-radius: 30 30 30 0;
+    
+}
+
+.topnav {
+    width: 100%;
+    position: fixed;
+    top:0;
+    white-space: nowrap
+}
+
+.topnav ul {
+    padding-left: 0;
+    margin-right:30;
+    margin-left: 15;
+    background-color: black;
+    text-align: center;
+    overflow:hidden;
+    height: 20;
+    list-style: none;
+    opacity: .7;
+    border-radius: 8 8 8 0;
+}
+
+.topnav li {
+    display: inline;
+    margin: 3%;
+    
+}
+
+.topnav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.topnav li:first-child {
+    padding-left: 0;
+    margin-left: 0;
+    
+}
+
+.sidenav {
+    display: inline-block;
+    width: 30%;
+    max-width: 200px;
+    min-width: 160px;
+    height: 55%; 
+    min-height: 250;
+    position: fixed;
+    top: 36;
+    left: 23;
+    background-color: black;
+    opacity: .7;
+    border-radius: 0 0 8 0;
+    text-align: left;
+
+}
+
+.sidenav ul {
+    display: inline-block;
+    list-style: none;
+
+}
+
+.sidenav li {
+   margin-top:20%;
+}
+
+.sidenav a{
+    margin-top: 20%;
+    padding: 5 19 2 40;
+    border-radius: 7;
+    box-shadow: 4px 4px 6px white;
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+.sidenav a:hover{
+    box-shadow: 1px 1px  white;
+
+}
+
+div {
+    margin-left: 18;
+    float: left;
+    
+    
+    
+    width: 30%;
+    max-width: 200px;
+    min-width: 160px;
+    height: 100%; 
+    min-height: ;
+    background-color: white;
+    opacity: .4;
+    border-radius: 0 0 8 0;
+    text-align: left;
+}
+
+article {
+    float: right;
+    width: 600; 
+    
+    
+}
+
+.aboutme {
+    float: right;
+    width: 600;   
+    
+}
+
+.aboutme, p {
+    color: white
+
+}
+
+
+
